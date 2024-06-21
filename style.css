@@ -1,0 +1,22 @@
+#can {
+    width: 1100px;
+    /* sets the width of the canvas */
+    height: 550px;
+    /* sets the height of the canvas */
+    border-style: solid;
+    /* sets the border style to solid */
+    border-width: 10px;
+    /* sets the border width */
+}
+
+#divstyle {
+    height: 95vh;
+    /* sets the height of the div to cover the screen so "justify content center is the center of the screen*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#start {
+    justify-content: center;
+}

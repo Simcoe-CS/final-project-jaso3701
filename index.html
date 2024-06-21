@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jason's final project</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <body style="text-align: center;">
+        <h1 style="color: green;">
+            Press spacebar to start game.
+            
+        </h1>
+        <div id="divstyle">
+            <canvas id="can"> Button Clicked <span id="display">0</span> Times </canvas>
+        </div>
+
+        <script type="text/javascript">
+            let scoree = 0;
+            let can = document.getElementById("can");
+            let disp = document.getElementById("display");
+             
+            can.onclick = function () {
+                        scoree++;
+            disp.innerHTML = scoree;
+            }
+        </script>
+
+
+
+
+        <script src="script.js"></script>
+    </body>
+
+</html>
